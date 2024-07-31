@@ -1,0 +1,173 @@
+.css-typing p {
+    border-right: .15em solid green;
+    font-family: "Courier";
+    font-size: 125%;
+    white-space: nowrap;
+    overflow: hidden;
+    color:green;
+  }
+  .css-typing p:nth-child(1) {
+    width: 25ch;
+    -webkit-animation: type 2s steps(25ch, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(2) {
+    width: 20ch;
+    opacity: 0;
+    -webkit-animation: type2 5s steps(20ch, end);
+    animation: type2 5s steps(20, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(3) {
+    width: 17ch;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(17ch, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(4) {
+    width: 24ch;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(24ch, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(5) {
+    width: 100ch;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(100ch, end), blink .2s step-end infinite alternate;
+    animation: type2 2s steps(20, end), blink .2s step-end infinite alternate;
+    -webkit-animation-delay: 11s;
+    animation-delay: 11s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(6) {
+    width: 100ch;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(100ch, end), blink .2s step-end infinite alternate;
+    animation: type2 2s steps(20, end), blink .2s step-end infinite alternate;
+    -webkit-animation-delay: 11s;
+    animation-delay: 11s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid green;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid green;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid green;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid green;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+*{
+  background-color: black;
+}
+
+button{
+  font:150% bolder;
+  color: green;
+  border: green;
+}
+div{
+  color: green;
+}
