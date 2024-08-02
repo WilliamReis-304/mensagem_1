@@ -3,7 +3,7 @@ const botaoRecusar = document.getElementById('recusar')
 
 botaoAjudar.addEventListener("click",()=>{
     let div = document.createElement('div')
-    div.innerHTML = `<p color='green'>'https://drive.google.com/drive/folders/1iLGgk6HZcv4HZJl-7wMNTPSNZ4HgYYcO?usp=drive_link'</p>`
+    div.innerHTML = `<p color='green'>https://drive.google.com/drive/folders/1iLGgk6HZcv4HZJl-7wMNTPSNZ4HgYYcO?usp=sharing</p>`
     document.body.appendChild(div)
 })
 botaoRecusar.addEventListener("click",()=>{
